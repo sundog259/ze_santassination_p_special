@@ -1,0 +1,20 @@
+{
+  "add": [
+      {
+          "classname": "math_counter",
+          "targetname": "marathon_level_counter",
+          "startdisabled": "0",
+          "max": "2",
+          "min": "1",
+          "startvalue": "1",
+          "origin": "182.969 -214.66 11657",
+          "io": [
+              {
+                  "outputname": "OnGetValue",
+                  "targetname": "marathon_level_case",
+                  "inputname": "InValue"
+              }
+          ]
+      }
+  ]
+}

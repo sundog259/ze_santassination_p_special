@@ -1,0 +1,40 @@
+{
+  "modify": [
+      {
+          "match": {
+              "targetname": "[PR#]filter_speeder&0000"
+          },
+          "delete": {
+              "io": [
+                  {
+                      "outputname": "OnPass",
+                      "inputname": "ForceSpawnAtEntityOrigin"
+                  }
+              ]
+          },
+          "insert": {
+            "io": [
+                {
+                    "outputname": "OnPass",
+                    "targetname": "item_i_sexysound_s_6&0000",
+                    "inputname": "StartSound"
+                }
+            ]
+        }
+      }
+  ],
+  "add": [
+      {
+          "classname": "point_soundevent",
+          "targetname": "item_i_sexysound_s_6&0000",
+          "parentname": "[PR#]item_holder_6&0000",
+          "saveandrestore": "False",
+          "stoponnew": "True",
+          "tolocalplayer": "False",
+          "startonspawn": "False",
+          "soundname": "custom.santa.sfx.sxy",
+          "uselocaloffset": "False",
+          "origin": "22 0 86"
+      }
+  ]
+}

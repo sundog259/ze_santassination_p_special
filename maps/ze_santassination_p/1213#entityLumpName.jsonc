@@ -1,0 +1,24 @@
+{
+  "modify": [
+      {
+          "match": {
+              "targetname": "[PR#]truth_not"
+          },
+          "insert": {
+              "io": [
+                  {
+                      "outputname": "OnTrigger",
+                      "targetname": "[PR#]zr_toggle_respawn",
+                      "inputname": "Disable"
+                  },
+                  {
+                      "outputname": "OnTrigger",
+                      "targetname": "[PR#]KILL_ALL",
+                      "inputname": "Enable",
+                      "delay": 0.25
+                  }
+              ]
+          }
+      }
+  ]
+}

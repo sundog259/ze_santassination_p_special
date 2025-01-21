@@ -2086,6 +2086,22 @@
                   "timestofire": 1
               },
               {
+                "outputname": "OnTrigger",
+                "targetname": "[PR#]stagetriggerwin",
+                "inputname": "AddOutput",
+                "overrideparam": "OnUser1>player>Keyvalue>max_health 200>0>1",
+                "delay": 0.02,
+                "timestofire": 1
+              },
+              {
+                "outputname": "OnTrigger",
+                "targetname": "[PR#]stagetriggerwin",
+                "inputname": "AddOutput",
+                "overrideparam": "OnUser1>player>Keyvalue>health 200>0.05>1",
+                "delay": 0.02,
+                "timestofire": 1
+              },
+              {
                   "outputname": "OnTrigger",
                   "targetname": "[PR#]stagetriggerwin",
                   "inputname": "AddOutput",

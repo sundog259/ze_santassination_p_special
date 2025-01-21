@@ -64,26 +64,26 @@
               {
                   "outputname": "OnStartTouch",
                   "targetname": "!activator",
-                  "inputname": "KeyValues",
+                  "inputname": "KeyValue",
                   "overrideparam": "max_health 20000"
               },
               {
                   "outputname": "OnStartTouch",
                   "targetname": "!activator",
-                  "inputname": "KeyValues",
+                  "inputname": "KeyValue",
                   "overrideparam": "health 20000",
                   "delay": 0.05
               },
               {
                   "outputname": "OnStartTouch",
                   "targetname": "!activator",
-                  "inputname": "KeyValues",
+                  "inputname": "KeyValue",
                   "overrideparam": "runspeed 1.25"
               },
               {
                   "outputname": "OnStartTouch",
                   "targetname": "!activator",
-                  "inputname": "KeyValues",
+                  "inputname": "KeyValue",
                   "overrideparam": "runspeed 1",
                   "delay": 4
               }

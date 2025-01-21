@@ -56,7 +56,7 @@
           "parentname": "zheal_rot&0000",
           "filtername": "[PR#]filter_t",
           "spawnflags": "1",
-          "wait": "4",
+          "wait": "1",
           "startdisabled": "1",
           "origin": "22.000000 0.000000 88.000000",
           "model": "maps/ze_santassination_p/entities/item_hurt_5_833.vmdl",

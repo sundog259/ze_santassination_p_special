@@ -26,6 +26,21 @@
                   "timestofire": 1
               },
               {
+                "outputname": "OnPlayerPickup",
+                "targetname": "!activator",
+                "inputname": "KeyValue",
+                "overrideparam": "max_health 20000",
+                "timestofire": 1
+              },
+              {
+                "outputname": "OnPlayerPickup",
+                "targetname": "!activator",
+                "inputname": "KeyValue",
+                "overrideparam": "health 20000",
+                "timestofire": 1,
+                "delay": 0.05
+              },
+              {
                   "outputname": "OnPlayerPickup",
                   "targetname": "!activator",
                   "inputname": "AddContext",
@@ -41,7 +56,7 @@
           "parentname": "zheal_rot&0000",
           "filtername": "[PR#]filter_t",
           "spawnflags": "1",
-          "wait": "1",
+          "wait": "4",
           "startdisabled": "1",
           "origin": "22.000000 0.000000 88.000000",
           "model": "maps/ze_santassination_p/entities/item_hurt_5_833.vmdl",
@@ -50,14 +65,14 @@
                   "outputname": "OnStartTouch",
                   "targetname": "!activator",
                   "inputname": "KeyValues",
-                  "overrideparam": "max_health 25000"
+                  "overrideparam": "max_health 20000"
               },
               {
                   "outputname": "OnStartTouch",
                   "targetname": "!activator",
                   "inputname": "KeyValues",
-                  "overrideparam": "health 25000",
-                  "delay": 0.02
+                  "overrideparam": "health 20000",
+                  "delay": 0.05
               },
               {
                   "outputname": "OnStartTouch",
@@ -70,7 +85,7 @@
                   "targetname": "!activator",
                   "inputname": "KeyValues",
                   "overrideparam": "runspeed 1",
-                  "delay": 2
+                  "delay": 4
               }
           ]
       },
@@ -233,7 +248,7 @@
           "ignoredclass": "0",
           "spawnflags": "16448",
           "iradiusoverride": "256",
-          "imagnitude": "300",
+          "imagnitude": "400",
           "rendermode": "5",
           "origin": "22.000000 0.0000000 85.500000"
       },
@@ -244,7 +259,7 @@
           "damage": "999999",
           "damagetype": "16384",
           "damageradius": "0",
-          "damagedelay": "5",
+          "damagedelay": "1",
           "origin": "22.000000 0.0000000 85.500000"
       },
       {

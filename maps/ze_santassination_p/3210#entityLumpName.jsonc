@@ -1,113 +1,105 @@
 {
-  "modify": [
+  "modify": [{
+    "match": {
+      "hammeruniqueid": "7903"
+    },
+    "delete": {
+      "io": [{
+        "outputname": "OnBreak",
+        "inputname": "ForceSpawnAtEntityOrigin"
+      }]
+    },
+    "insert": {
+      "io": [{
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "SetParent",
+        "overrideparam": "!activator",
+        "timestofire": 1,
+        "delay": 0.01
+      },
       {
-          "match": {
-              "hammeruniqueid": "7903"
-          },
-          "delete": {
-              "io": [
-                  {
-                      "outputname": "OnBreak",
-                      "inputname": "ForceSpawnAtEntityOrigin"
-                  }
-              ]
-          },
-          "insert": {
-              "io": [
-                  {
-                      "outputname": "OnBreak",
-                      "targetname": "lionking_i_sexysound_s",
-                      "inputname": "SetParent",
-                      "overrideparam": "!activator",
-                      "timestofire": 1,
-                      "delay": 0.01
-                  },
-                  {
-                      "outputname": "OnBreak",
-                      "targetname": "lionking_i_sexysound_s",
-                      "inputname": "SetParentAttachment",
-                      "overrideparam": "primary",
-                      "timestofire": 1,
-                      "delay": 0.03
-                  },
-                  {
-                      "outputname": "OnBreak",
-                      "targetname": "lionking_i_sexysound_s",
-                      "inputname": "StartSound",
-                      "timestofire": 1,
-                      "delay": 0.05
-                  },
-                  {
-                      "outputname": "OnBreak",
-                      "targetname": "lionking_i_sexysound_s",
-                      "inputname": "StartSound",
-                      "timestofire": 1,
-                      "delay": 0.25
-                  },
-                  {
-                      "outputname": "OnBreak",
-                      "targetname": "lionking_i_sexysound_s",
-                      "inputname": "StartSound",
-                      "timestofire": 1,
-                      "delay": 0.45
-                  },
-                  {
-                      "outputname": "OnBreak",
-                      "targetname": "lionking_i_sexysound_s",
-                      "inputname": "StartSound",
-                      "timestofire": 1,
-                      "delay": 1
-                  },
-                  {
-                      "outputname": "OnBreak",
-                      "targetname": "lionking_i_sexysound_s",
-                      "inputname": "StartSound",
-                      "timestofire": 1,
-                      "delay": 2
-                  },
-                  {
-                      "outputname": "OnBreak",
-                      "targetname": "lionking_i_sexysound_s",
-                      "inputname": "StartSound",
-                      "timestofire": 1,
-                      "delay": 3
-                  },
-                  {
-                      "outputname": "OnBreak",
-                      "targetname": "lionking_i_sexysound_s",
-                      "inputname": "StartSound",
-                      "timestofire": 1,
-                      "delay": 5
-                  },
-                  {
-                    "outputname": "OnBreak",
-                    "targetname": "lionking_i_sexysound_s",
-                    "inputname": "ClearParent",
-                    "timestofire": 1,
-                    "delay": 5.02
-                  },
-                  {
-                    "outputname": "OnBreak",
-                    "targetname": "lionking_i_sexysound_s",
-                    "inputname": "Kill",
-                    "timestofire": 1,
-                    "delay": 5.05
-                  }
-              ]
-          }
-      }
-  ],
-  "add": [
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "SetParentAttachment",
+        "overrideparam": "primary",
+        "timestofire": 1,
+        "delay": 0.03
+      },
       {
-          "classname": "point_soundevent",
-          "targetname": "lionking_i_sexysound_s",
-          "saveandrestore": "False",
-          "stoponnew": "True",
-          "tolocalplayer": "False",
-          "startonspawn": "False",
-          "soundname": "custom.santa.sfx.sxy",
-          "uselocaloffset": "False",
-          "origin": "0 0 32"
-      }
-  ]
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "StartSound",
+        "timestofire": 1,
+        "delay": 0.05
+      },
+      {
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "StartSound",
+        "timestofire": 1,
+        "delay": 0.25
+      },
+      {
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "StartSound",
+        "timestofire": 1,
+        "delay": 0.45
+      },
+      {
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "StartSound",
+        "timestofire": 1,
+        "delay": 1
+      },
+      {
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "StartSound",
+        "timestofire": 1,
+        "delay": 2
+      },
+      {
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "StartSound",
+        "timestofire": 1,
+        "delay": 3
+      },
+      {
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "StartSound",
+        "timestofire": 1,
+        "delay": 5
+      },
+      {
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "ClearParent",
+        "timestofire": 1,
+        "delay": 5.02
+      },
+      {
+        "outputname": "OnBreak",
+        "targetname": "lionking_i_sexysound_s",
+        "inputname": "Kill",
+        "timestofire": 1,
+        "delay": 5.05
+      }]
+    }
+  }],
+  "add": [{
+    "classname": "point_soundevent",
+    "targetname": "lionking_i_sexysound_s",
+    "saveandrestore": "False",
+    "stoponnew": "True",
+    "tolocalplayer": "False",
+    "startonspawn": "False",
+    "soundname": "custom.santa.sfx.sxy",
+    "uselocaloffset": "False",
+    "origin": "0 0 32"
+  }]
 }

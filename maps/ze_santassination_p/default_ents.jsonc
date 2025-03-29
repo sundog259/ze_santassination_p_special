@@ -629,6 +629,18 @@
     },
     {
       "outputname": "OnTrigger",
+      "targetname": "[PR#]factory_sfx",
+      "inputname": "Kill",
+      "timestofire": 1
+    },
+    {
+      "outputname": "OnTrigger",
+      "targetname": "[PR#]sound_factory*",
+      "inputname": "Kill",
+      "timestofire": 1
+    },
+    {
+      "outputname": "OnTrigger",
       "targetname": "marathon_skybox_reset",
       "inputname": "Trigger",
       "delay": 0.1,
@@ -2360,6 +2372,22 @@
       "targetname": "[PR#]KILL_ACT1_CHECKc",
       "inputname": "AddOutput",
       "overrideparam": "OnTrigger>marathon_global_zombie_tp>Disable>>6.5>1",
+      "delay": 0.05,
+      "timestofire": 1
+    },
+    {
+      "outputname": "OnTrigger",
+      "targetname": "[PR#]KILL_ACT1_CHECKc",
+      "inputname": "AddOutput",
+      "overrideparam": "OnTrigger>[PR#]factory_sfx>Stopsound>>6.5>1",
+      "delay": 0.05,
+      "timestofire": 1
+    },
+    {
+      "outputname": "OnTrigger",
+      "targetname": "[PR#]KILL_ACT1_CHECKc",
+      "inputname": "AddOutput",
+      "overrideparam": "OnTrigger>[PR#]sound_*>Stopsound>>6.5>1",
       "delay": 0.05,
       "timestofire": 1
     },
